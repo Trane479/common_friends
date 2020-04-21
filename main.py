@@ -68,12 +68,6 @@ def show_mutual_friends(json_):
         print('vk.com/' + str(User.get_id(id)))
 
 
-# user1 = User(TOKEN, 'traneisback')
-# user2 = User(TOKEN, 'teslahu')
-#
-#
-# show_mutual_friends(user1 & user2)
-# print(user1)
 
 def main():
     user1 = input('Введите  id первого пользователя:')
